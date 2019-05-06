@@ -102,6 +102,7 @@ public interface SimpleExtractor {
 	 * @param inputPaths not <code>null</code>, may be empty
 	 * @return a list containing as many entries as in the given collection, not
 	 *         <code>null</code>, but may be empty
+	 * 
 	 * @throws InvalidPasswordException if a PDF required a non-empty password
 	 * @throws IOException              in case of a reading or parsing error
 	 * @see #setStripper(PDFTextStripper)
