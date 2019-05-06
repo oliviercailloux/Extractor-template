@@ -1,6 +1,9 @@
 = Extractor
+
+Here are the instructions to follow for the graded exercice “Extractor”.
+
+* Create a repository for your exercice https://classroom.github.com/a/Ny5sBwFU[here]. This is where your project must be submitted. (For example, clone it and let your Maven project to be created at the next step become the root of this folder.)
 * Create a Maven project. Use `groupId` `io.github.oliviercailloux` (or your own group id) and `artifactId` `extractor-` followed by your GitHub username.
-* Create a repository for your exercice https://classroom.github.com/a/Ny5sBwFU[here]. Clone it and move your just created Maven project into the root of this folder.
 * This project will build a simple class that is able to extract plain text from a PDF. For this, we will use Apache https://pdfbox.apache.org/[PDFBox]. Add the required dependency to your POM.
 * There is a file already in your repository. It defines an interface `SimpleExtractor`. Move this file in the right folder, corresponding to its declared package (do not change its package).
 * Now your project should compile (and do nothing). Commit your code so far.
@@ -13,7 +16,7 @@ _Important_: Make sure your code compiles (according to `mvn compile`). Otherwis
 
 Supplementary information that you do not have to read: here are various aspects that will be graded (the list is not exhaustive).
 
-* You committed around or before half-time (in supplement to your last commit) using `git`
+* You committed before half-time (in supplement to your last commit) using `git`
 * Your POM is at the root of your git repository
 * POM satisfies the best practices
 * Dependencies in the POM (to PDFBox and Guava) are well configured
